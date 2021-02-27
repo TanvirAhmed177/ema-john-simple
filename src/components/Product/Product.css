@@ -6,7 +6,7 @@
   padding-bottom: 5px;
 }
 .product-name {
-  color: lightgreen;
+  color: cadetblue;
   font-weight: 400;
 }
 .product-btn {
@@ -16,4 +16,8 @@
   border: 1px solid darkgrey;
   border-radius: 5px;
   cursor: pointer;
+}
+.product-detail {
+  margin-left: 30px;
+  margin-bottom: 20px;
 }

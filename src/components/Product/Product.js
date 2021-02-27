@@ -11,7 +11,7 @@ const Product = (props) => {
       <div>
         <img src={img} alt="" />
       </div>
-      <div>
+      <div className="product-detail">
         <h4 className="product-name">{name}</h4>
         <br />
         <p>
@@ -27,7 +27,7 @@ const Product = (props) => {
           onClick={() => props.handleAddProduct(props.product)}
         >
           <FontAwesomeIcon icon={faShoppingCart} />
-          Add to cart
+          <p style={{ marginLeft: "5px", display: "inline" }}>Add to cart</p>
         </button>
       </div>
     </div>
